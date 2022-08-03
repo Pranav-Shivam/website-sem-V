@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amination</title>
+	<style type="text/css">
+		body
+		{
+			background-color: rgba(27,31,35,0.85);
+			
+		}
+		h1
+		{
+			font-size: 15px;
+			font-family: ravie;
+			text-align: center;
+			text-shadow: 5px;
+			color: white;
+		}
+		div
+		{
+			margin-top: 35px;
+		}
+		.slide-show
+		{
+			width: 70%;
+			height: 300px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			background-image: url(picture/amination/10.jpg));
+			background-size: 100% 100%;
+			box-shadow: 1px 2px 10px 10px white;
+			animation: slider 35s infinite linear;
+		}
+
+		@keyframes slider{
+			0%{
+				background-image: url(picture/amination/1.jpeg);
+			}
+			12%{
+				background-image: url(picture/amination/2.jpeg);
+			}
+			25%{
+				background-image: url(picture/amination/3.jpeg);
+			}
+			38%{
+				background-image: url(picture/amination/4.jpeg);
+			}
+			50%{
+				background-image: url(picture/amination/5.jpeg);
+			}
+			60%{
+				background-image: url(picture/amination/10.jpeg);
+			}
+			80%{
+				background-image: url(picture/amination/7.jpeg);
+			}
+			90%{
+				background-image: url(picture/amination/8.jpeg);
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Gallery</h1>
+		<div class="slide-show">
+	</div>
+</div>
+</body>
+</html>

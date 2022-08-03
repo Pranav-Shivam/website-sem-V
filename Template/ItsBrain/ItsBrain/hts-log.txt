@@ -1,0 +1,28 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 13 Jul 2019 11:10:11 at http://demo.interface.club/itsbrain/liquid/light/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://demo.interface.club/itsbrain/liquid/light/index.html -O1 "D:\templates\Admin_22_02_18\ItsBrain" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/fonts/glyphicons-halflings-regular.eot (from demo.interface.club/itsbrain/liquid/light/css/bootstrap.min.css)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/fonts/glyphicons-halflings-regular.eot? (from demo.interface.club/itsbrain/liquid/light/css/bootstrap.min.css)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/fonts/glyphicons-halflings-regular.woff (from demo.interface.club/itsbrain/liquid/light/css/bootstrap.min.css)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/fonts/glyphicons-halflings-regular.ttf (from demo.interface.club/itsbrain/liquid/light/css/bootstrap.min.css)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/fonts/glyphicons-halflings-regular.svg (from demo.interface.club/itsbrain/liquid/light/css/bootstrap.min.css)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/images/interface/nav_arrow_left.png (from demo.interface.club/itsbrain/liquid/light/css/styles.css)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/images/collection.png (from demo.interface.club/itsbrain/liquid/light/css/styles.css)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/images/collection_hover.png (from demo.interface.club/itsbrain/liquid/light/css/styles.css)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/get (from demo.interface.club/itsbrain/liquid/light/js/plugins/forms/uploader/plupload.full.min.js)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/AppleWebKit/ (from demo.interface.club/itsbrain/liquid/light/js/plugins/forms/wysihtml5/wysihtml5.min.js)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/Chrome/ (from demo.interface.club/itsbrain/liquid/light/js/plugins/forms/wysihtml5/wysihtml5.min.js)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/Opera/ (from demo.interface.club/itsbrain/liquid/light/js/plugins/forms/wysihtml5/wysihtml5.min.js)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/hpwos/ (from demo.interface.club/itsbrain/liquid/light/js/plugins/forms/wysihtml5/wysihtml5.min.js)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/~ (from demo.interface.club/itsbrain/liquid/light/js/plugins/forms/wysihtml5/wysihtml5.min.js)
+11:15:47	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/Popover requires tooltip.js (from demo.interface.club/itsbrain/liquid/light/js/bootstrap.min.js)
+11:15:48	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/demo.interface.club/itsbrain/liquid/dark/index.html (from demo.interface.club/itsbrain/liquid/light/visuals.html)
+11:15:48	Error: 	"Not Found" (404) at link demo.interface.club/itsbrain/liquid/light/demo.interface.club/itsbrain/fixed/light/index.html (from demo.interface.club/itsbrain/liquid/light/visuals.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 31 seconds : 151 links scanned, 133 files written (10105870 bytes overall) [10145702 bytes received at 25948 bytes/sec], 7.5 requests per connection
+(17 errors, 0 warnings, 0 messages)

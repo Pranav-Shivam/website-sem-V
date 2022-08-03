@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+ 	<style type="text/css">
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    input
+    {
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      border: 2px solid #00FFFF;
+    }
+  </style>
+</head>
+<body background="photo\fast1.jpg">
+  <center>
+    <div>
+      <div>
+      	<br><br>
+        <h1 style="color: yellow">Login</h1>
+        <br><br><br>
+      </div>
+      <div >
+      	<br><br><br>
+        <input type="text" name="user" placeholder="   Username" id="user"><br><br>
+        <br><br>
+        <input type="password" name="password" id="password" placeholder="   Password" /><br>
+         <h6 style="background-color: white;>If you had not registered then click here <a href="register.html">register</a> </h6>
+        <br><br><br>
+        <input type="button" name="" value="Login" style="color: white; height: 50px; width:30px; background-color: green;" onclick="logi()">
+        <a href="online.html"><input type="button" name="" value="Cancel" style="color: white; height: 50px; width:120px; background-color: red;"></a>
+            </div>
+        </div>
+    </center>
+    <script type="text/javascript">
+    	function logi(argument)
+    	{
+    		var uname=["Pranav","Mayush","Anjali","Shalini"];
+    		var pass=["pranav","mayush","anjali","shalini"];
+    		var fl=0;
+    		for (var i = 0; i < 4; i++) 
+    		{
+    			if(document.getElementById('user').value==uname[i] && document.getElementById('password').value==pass[i])
+    			{
+    				fl=1;
+    			}
+    		}
+    		if(fl==1)
+    			{
+    				alert("Login Successfully");
+    			}
+	    		else
+	    		{
+	    			alert("Inavlid Username or Password");
+	    		}
+           document.write("<center><button id=paapa onclick=back()>Go Home Page</button></center>");
+         }
+           function back()
+          {
+      Window=window.open("online.html","_blank","width=1600px, height=800px");
+         }
+    	 
+    </script>
+</body>
+
+</html>

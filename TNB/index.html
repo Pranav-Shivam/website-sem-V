@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>T.N.B College</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="Header">
+		<img src="picture/logo1.png" class="logo1">
+		<img src="picture/head.jpg" class="headi">
+		<div class="search">
+			<input type="text" placeholder="Search......" name="search-text-input" class="search-text">
+			<i class="fa fa-search"></i>
+		</div>
+	</div>
+	<div class="Nav-menu">
+		<center>
+		<!-- <h1>navigation menu</h1> -->
+		<ul>
+			<li ><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+
+			<li>
+				<a href="About.html" target="Content1"><i class="fa fa-users"></i>About Us</a>
+			</li>
+
+			<li><a href="#"><i class="fa fa-clone"></i>Addmission</a>
+				<div class="sub-menu-1">
+					<ul>
+						<li><a href="Addmission.html" target="Content1">B.C.A</a></li>
+
+						<li><a href="Addmission.html" target="Content1">B.B.A</a></li>
+
+						<li class="hover-me"><a href="#">B.A</a><i class="fa fa-angle-right"></i>
+							<div class="sub-menu-2">
+								<ul>
+									<li><a href="Addmission.html" target="Content1">History</a></li>
+									<li><a href="Addmission.html" target="Content1">Political Science</a></li>
+									<li><a href="Addmission.html" target="Content1">Geography</a></li>
+									<li><a href="Addmission.html" target="Content1">Economics</a></li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="hover-me"><a href="#">B.Sc</a><i class="fa fa-angle-right"></i>
+							<div class="sub-menu-2">
+								<ul>
+									<li><a href="Addmission.html" target="Content1">Mathematics</a></li>
+									<li><a href="Addmission.html" target="Content1">Chemistry</a></li>
+									<li><a href="Addmission.html" target="Content1">Physics</a></li>
+									<li><a href="Addmission.html" target="Content1">Biology</a></li>
+									<li><a href="Addmission.html" target="Content1">Bio-Technology</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			<li><a href="#"><i class="fa fa-users"></i>Academics</a>
+				<div class="sub-menu-1">
+					<ul>
+						<li><a href="Bca.html" target="Content1">Computer Application</a></li>
+						<li><a href="English.html" target="Content1">English</a></li>
+						<li><a href="Biotechnology.html" target="Content1">Biotechnology</a></li>
+						<li><a href="Geography.html" target="Content1">Geography</a></li>
+						<li><a href="Physic.html" target="Content1">Physic</a></li>
+						<li><a href="Chemistry.html" target="Content1">Chemistry</a></li>
+						<!-- <li><a href="Economics.html" target="Content1">Economics</a></li>
+						<li><a href="Urdu.html" target="Content1">Urdu</a></li>
+						<li><a href="Sanskrit.html" target="Content1">Sanskrit</a></li>
+						<li><a href="Mathematics.html" target="Content1">Mathematics</a></li>
+						<li><a href="History.html" target="Content1">History</a></li> -->
+					</ul>
+				</div>
+			</li>
+
+			<li><a href="#"><i class="fa fa-angellist"></i>Syllabus</a>
+				<div class="sub-menu-1">
+					<ul>
+						<li class="hover-me"><a href="#">B.C.A</a><i class="fa fa-angle-right"></i>							
+							<div class="sub-menu-2">
+								<ul>
+									<li><a href="SemesterI.html" target="Content1">Semester I</a></li>
+									<li><a href="SemesterII.html" target="Content1">Semester II</a></li>
+									<li><a href="SemesterIII.html" target="Content1">Semester III</a></li>
+									<li><a href="SemesterIV.html" target="Content1">Semester IV</a></li>
+									<li><a href="SemesterV.html" target="Content1">Semester V</a></li>
+									<li><a href="SemesterVI.html" target="Content1">Semester VI</a></li>
+								</ul>
+							</div>							
+						</li>
+					</ul>
+				</div>
+			</li>
+			
+			<li><a href="Fee.html" target="Content1"><i class="fa fa-inr"></i>Fee Structure</a></li>
+			
+			<li><a href="Contact.html" target="Content1"><i class="fa fa-phone"></i>Contact Us</a></li>
+
+			<li><a href="Map.html" target="Content1"><i class="fa fa-map"></i>MAPS</a></li>
+
+			<li><a href="Feedback.html" target="Content1"><i class="fa fa-book"></i>Feedback</a></li>
+		</ul>
+		</center>
+	</div>
+	<div class="Content">
+		<iframe src="Home.html" width="100%" height="800px" name="Content1"></iframe>
+		<!-- <h1>content</h1> -->
+	</div>
+
+	<div class="Slide-bar">
+		<!-- <h1>Notice and news</h1> -->
+				<div class="login-page">
+					<div class="form">
+						<form class="register-form">
+							<input type="text" name="" placeholder="user name" id="user">
+							<input type="text" name="" placeholder="password" id="pass">
+							<input type="text" name="" placeholder="email id" id="email">
+							<button onclick="subm()">Create
+							</button>
+							<p class="message">Already Registered ?<a href="#">Login</a></p>
+
+						</form>
+						<form class="login-form">
+							<input type="text" name="" placeholder="user name" id="username">
+							<input type="text" name="" placeholder="password" id="password">
+							<button onclick="logi()">Login</button>
+							<p class="message">
+								Not Registered? <a href="#">Register</a>
+							</p>
+						</form>
+					</div>
+				</div>
+				<!-- <iframe src="login.html" width="100%" height="350px" name="Content2"></iframe> -->
+				<div>
+					<iframe src="Aminiation.html" width="100%" height="350px" name="Content2"></iframe>
+
+				</div>
+	</div>
+	
+	<div class="Footer">
+		<div class="Foot">
+			<h1>© 2020 T.N.B. College </h1>
+			<p>| Designed and Developed By Pranav Singh Tomar |</p>
+			<img src="picture/gif.png">
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js">
+	</script>
+	<script type="text/javascript">
+		$('.message a').click(function()
+		 {
+			$('form').animate({height: "toggle", opacity: "toggle"}, "show");
+		 })
+		function logi(argument)
+    	{
+    		var uname=["Pranav","Mayush","Anjali","Shalini","Sharda"];
+    		var pass=["pranav","mayush","anjali","shalini","sharda"];
+    		var fl=0;
+    		for (var i = 0; i < 5; i++) 
+    		{
+    			if(document.getElementById('username').value==uname[i] && document.getElementById('password').value==pass[i])
+    			{
+    				fl=1;
+    			}
+    		}
+    		if(fl==1)
+    			{
+    				alert("Login Successfully");
+    			}
+	    		else
+	    		{
+	    			alert("Inavlid Username or Password");
+	    		}
+         }
+          function subm(argument) {
+       var register =[3];
+       register[0]=document.getElementById('user').value;
+       register[1]=document.getElementById('pass').value;
+       register[2]=document.getElementById('email').value;
+      document.write("<center><table border=1  width=200px bgColor=pink>"); 
+       for (var i=0;i<3;i++)
+        {
+          document.write("<tr height=50px>");
+        if (i>=0) 
+        {
+         document.write("<td>"+register[i]+"</td>");
+       }
+       else
+       {
+        document.write("Please fill the following details :-<br> ");
+       }
+      document.write("</tr>");
+     }
+       document.write("</table><h1>Thank you for Registration</h1>");
+   }
+	</script>
+</body>
+</html>

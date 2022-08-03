@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 15 May 2019 12:50:09 at https://demo.hasthemes.com/educat-v2/educat-v2/educat/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://demo.hasthemes.com/educat-v2/educat-v2/educat/index.html -O1 "C:\Users\mohdq\Desktop\edumart\educat" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:53:35	Error: 	"Forbidden" (403) at link https://demo.hasthemes.com/educat-v2/educat-v2/educat/footer-style-4.html (from https://demo.hasthemes.com/educat-v2/educat-v2/educat/index.html)
+12:53:50	Error: 	"Forbidden" (403) at link https://demo.hasthemes.com/educat-v2/educat-v2/educat/css/owl.video.play.png (from https://demo.hasthemes.com/educat-v2/educat-v2/educat/css/plugins.css)
+12:53:50	Error: 	"Forbidden" (403) at link https://demo.hasthemes.com/educat-v2/educat-v2/educat/img/loading.gif (from https://demo.hasthemes.com/educat-v2/educat-v2/educat/css/plugins.css)
+12:53:50	Error: 	"Forbidden" (403) at link https://demo.hasthemes.com/educat-v2/educat-v2/educat/img/arrows.png (from https://demo.hasthemes.com/educat-v2/educat-v2/educat/css/plugins.css)
+12:53:50	Error: 	"Forbidden" (403) at link https://demo.hasthemes.com/educat-v2/educat-v2/educat/css/font/ytp-regular.eot (from https://demo.hasthemes.com/educat-v2/educat-v2/educat/css/plugins.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 41 seconds : 220 links scanned, 214 files written (16280665 bytes overall) [11398065 bytes received at 51574 bytes/sec], 6006933 bytes transferred using HTTP compression in 107 files, ratio 17%, 36.6 requests per connection
+(5 errors, 0 warnings, 0 messages)

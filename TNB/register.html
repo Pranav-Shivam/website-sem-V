@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+  <style type="text/css">
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    input
+    {
+      width: 340px;
+      height: 40px;
+      border-radius: 25px;
+      border: 2px solid #00FFFF;
+    }
+  </style>
+</head>
+<body background="photo\fast.jpg">
+  <center>
+    <div>
+      <div>
+        <h1>Registration</h1>
+        <br><br><br>
+      </div>
+      <div >
+        <input type="text" name="user" placeholder="   Username" id="name"><br><br>
+        <input type="password" id="password" name="password" placeholder="   Password"/><br><br>
+        <input type="text" id="email" name="email" placeholder= "   Email" /><br><br>
+        <input  type="number" id="number" name="number" placeholder="   Mobile Number"><br><br>
+        <input type="text" name="address" placeholder="    Address" id="address"><br><br><br><br>
+        <h2 style="background-color: white; width: 500px">If you have already register then click here <a href="login.html">login</a> </h2>
+        <br><br>
+        <input type="button" name="" value="Register" style="color: white; height: 50px; width:120px; background-color: green;" onclick="subm()">  <a href="online.html"></input>
+        <a href="online.html"><input type="button" name="" value="Cancel" style="color: white; height: 50px; width:120px; background-color: red;"></a>
+      </div></div>
+  
+  <script type="text/javascript">
+    function subm(argument) {
+       var register =[6];
+       register[0]=document.getElementById('name').value;
+       register[1]=document.getElementById('password').value;
+       register[2]=document.getElementById('email').value;
+       register[3]=document.getElementById('number').value;
+       register[4]=document.getElementById('address').value;
+      document.write("<center><table border=1  width=200px bgColor=pink>"); 
+       for (var i=0;i<5;i++)
+        {
+          document.write("<tr height=50px>");
+        if (i>=0) 
+        {
+         document.write("<td>"+register[i]+"</td>");
+       }
+       else
+       {
+        document.write("Please fill the following details :-<br> ");
+       }
+      document.write("</tr>");
+     }
+       document.write("</table><h1>Thank you for Registration</h1>");
+       document.write("<button id=paapa onclick=back()>Go Home Page</button></center>");
+   }
+   function back()
+   {
+   		Window=window.open("online.html","_blank","width=1600px, height=800px");
+   }
+  </script>
+</center></body>
+  </html>

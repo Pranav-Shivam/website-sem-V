@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div >
+	<h1>Department of Economics</h1>
+	<p>To be filled</p>
+</div>
+<div >
+	<h1>Department of Urdu</h1>
+	<p>To be filled</p>
+</div>
+<div >
+	<h1>Department of Sanskrit</h1>
+	<p>To be filled</p>
+</div>
+<div >
+	<h1>Department of Mathematics</h1>
+	<p>To be filled</p>
+</div>
+<div >
+	<h1>Department of History</h1>
+	<p>To be filled</p>
+</div>
+<div >
+	<h1>Department of Philosophy</h1>
+	<p>To be filled</p>
+</div>
+<div >
+	<h1>Department of History</h1>
+	<p>To be filled</p>
+</div>
+<div>
+	<h1>Department of English</h1>
+	<img src="picture/Engdept.jpeg">
+	<p>
+		<h2>Contact Info:-</h2>
+				Mob: 9939255528<br>
+				Email- mksinha2807@gmail.com , ashishpriya005@gmail.com
+		<h2>Courses:-</h2>
+				Intermediate (I.A, I.Sc.)<br>
+				B.A. (Hons), B.A. (Gen)<br>
+				M.A<br>
+				Department of English<br>
+
+		<h2>Mission :-</h2>
+				
+				The English Department is improved  with the mission to not only hold regular interactive classes but to develop the literary sensibility linguistic in the students.
+
+		<h2>Vision:-</h2>
+
+				The English Department has the vision to develop the literary and cultural potential among students. With this view the Department has set up the language Lab to develop the linguistic abilities of the students coming from the rural and vernacular background.
+
+				<h2>Brief History :-</h2>
+				The Department of English is one of the founding Department of the T.N.B. College since its inception in 1883. The Department has had the good fortune of having some of the brightest minds as teachers. When the college was affiliated to Calcutta University, Honours teaching started in 1890 when there were few college in this part of state.
+				The department feels priveleged in having on its faculty outstanding teachers like Dr. N.K. Banarjee, Dr. M.Q. Towheed (Ex- Vice Chanceller, T.M. Bhagalpur University) and a host of eminent teachers.
+       			The Department, from time to time has been organising seminar, debates and other literary activities. Recently, thanks to the inspiration given by our present Head Prof. Mithilesh kumar sinha, The English Association has been constituted for all round development of the student of the Department. The entire management of the Association has been entrusted to the student themselves in order to develop their organisational and leadership skill. As a part of its activities, the English Association has already organised an inter- college Debate competition and seminar on the topic "Women in Shakespeare's Plays" with a promising proof of students, we hope to continue the good work in future.  
+ 		</p>
+ 		<h2>Faclties :-</h2>
+ 		<table>
+ 			<tr>
+ 				<td>
+ 					<img src="picture/Ashish.jpg">
+ 				</td>
+ 				<td>
+ 					<img src="picture/M.A.Rizwi.jpg">
+ 				</td>
+ 			</tr>
+ 			<tr>
+ 				<td>
+ 					Ashish Priya
+ 				</td>
+ 				<td>
+ 					Dr. M. A. Rizwee
+ 				</td>
+ 			</tr>
+ 		</table>		   
+	</div>
+	<div >
+		<h1>Department of Biotechnology (UGC Approved & Sponsored)</h1>
+		<p>
+			The UGC approved & sponsored 3 years Hons vocational courses in Biotechnology was started as separate Department in this college from 17th September 2001. The department has already organised many National Seminar and UGC sponsored national Workshops, many pass out student are settled and working in key position in different reputed National & International Pharmaceutical Companies and various Institutions.
+		 </p>
+	</div>
+	<div>
+		<h2>Department of Geography</h2>
+		<img src="picture/geographydept.jpg">
+		<p>
+			The history of Geography Department of T.N.B. College dates back to 1961 when a need was felt to start teaching of Geography at the undergraduate level in the entire Bhagalpur University. There was nowhere teaching of geography available in any of the constituent colleges. Students, desirous to take admission in Geography (Hons) course or opting Geography as pass course level, had to depart  Patna, Varanasi, Ranchi or elsewhere .In order to cater to the earnest…
+		</p>
+	</div>
+	<div>
+		<h2>Department of Physics</h2>
+		<img src="picture/Physicsdept.jpg">
+		<p>
+			Department of physics in TNB College was establish in 1916 under the founder Prof. P.B. Gupta. Some the Renowned teachers and head of the department are Prof. S.K. Mitra, who become first director of National Physical Laboratory (N.P.L), New Delhi. Late Dr. Sudharshan Pd. Sinha, who was the former principal of T.N.B college for more than 14 years was the eminent scientist in the field of spectro copy. Some Renowned teachers of department are Prof. N.R. Mitra, Prof. R.P. Thakur, Prof. R.N.…
+		</p>
+	</div>
+	<div>
+		<h2>Department of Computer Applications (B.C.A)</h2>
+		<img src="picture/bca dpt_0.jpg">
+		<p>
+			Three year vocational course in Computer Application was started in 2003, by the order of then vice-chancellor, T.M. Bhagalpur University, Bhagalpur vide letter no. B/18634 dated 19/21, May 2003, under self-finance scheme. The department has state of the art infrastructure like AC computer labs with broadband connectivity, smart classrooms, updated library with internet facility and photocopier machine, spacious lecture halls…
+		</p>
+	</div>
+	<div>
+		<h2>Department of Chemistry</h2>
+		<img src="picture/chemisty dpt.jpg">
+		<p>
+			The Department of Chemistry, T.N.B. College, Bhagalpur, was established since 1916 in Bhagalpur, Bihar. The teaching work was started under various renowned professors at under graduate level, and then later on the department was promoted to post graduate level. Many students of Bihar as well as from other states were awarded PhD degrees and got the chance to serve as teachers in this department also. Many of the distinguished Heads were…</p>
+	</div>
+</body>
+</html>
+ href="Academics.html" target="Content1"
